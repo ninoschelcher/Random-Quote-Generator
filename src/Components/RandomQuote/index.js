@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./style.css";
 import AuthorQuote from "../AuthorQuote";
+import Footer from "../Footer";
 
 const RandomQuote = () => {
   const [quote, setQuote] = useState({});
@@ -55,6 +56,7 @@ const RandomQuote = () => {
           </Route>
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 };

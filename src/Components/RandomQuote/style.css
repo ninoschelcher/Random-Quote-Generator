@@ -81,6 +81,13 @@ span {
   margin-right: 0.5em;
 }
 
+
+@media only screen and (max-width: 1440px) {
+  section {
+    max-width: 50%;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   section {
     max-width: 60%;
