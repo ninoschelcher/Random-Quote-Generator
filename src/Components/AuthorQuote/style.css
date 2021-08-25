@@ -1,0 +1,26 @@
+#authorsection {
+  max-width: 40%;
+  margin: 7em auto 0 auto;
+}
+
+#authorsection div {
+  margin-left: -4.5em;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  border-left: 5px solid #f7df94;
+  padding-left: 2em;
+  margin: 3em 0;
+}
+
+@media only screen and (max-width: 992px) {
+  #authorsection {
+    max-width: 65%;
+  }
+}
